@@ -1,0 +1,205 @@
+/*--------------- FONTS -------------*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Playfair Display', 'Montserrat', sans-serif;
+  }
+  
+  /*--------------- GENERAL -------------*/
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background-color: #ffffff;
+    color: #3AAF77;
+    font-weight: 100;
+  }
+  
+  header {
+    background-color: transparent;
+    width: 100;
+    height: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  
+  .redes__sociales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .redes__sociales .redes__sociales__img {
+    width: 3rem;
+    color: #3AAF77;
+    margin: 0.5em;
+    z-index: 2;
+    border: 1px  #3AAF77;
+  }
+  
+  .footer__horizontal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  
+  .footer__horizontal .redes__sociales__img {
+    width: 3rem;
+    color: #3AAF77;
+    margin: 2em;
+  }
+  
+  .footer__horizontal .direccion__horizontal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 2em;
+  }
+  
+  .logoNav {
+    background-color: transparent;
+    width: 15em;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .navbar-nav {
+    width: 50em;
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav a {
+    color: #3AAF77;
+  }
+  
+  .nav-link {
+    color: #3AAF77 !important;
+  }
+
+#logo__principal {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  .tablas__horarios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  
+  .table-bordered {
+    border-color: white;
+  }
+  
+  .tablas__divisor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    color: black;
+    background: #91fbc8;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(34%, #91fbc8), color-stop(70%, #b7ffd4));
+    background: linear-gradient(180deg, #91fbc8 34%, #b7ffd4 70%);
+    margin: 1em;
+  }
+  
+  .tabla__nombre {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+  }
+  
+  .tabla__titulo {
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  .tabla__horario {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .tabla__actividad {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .titulo__actividades {
+    font-size: 4em;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #3AAF77;
+    margin: 1em;
+  }
+
+  select, .form-control {
+    font-size: 1.5em;
+  }
+  
+  .form-label {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .btn {
+    font-size: 2em;
+    background-color: #3AAF77;
+    border: none;
+  }
+  
+  .btn1 {
+    font-size: 1.5em;
+    background-color: #3AAF77;
+    border: none;
+  }
+
