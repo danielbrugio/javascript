@@ -1,0 +1,14 @@
+ [
+    {"id":1, "nombre":"Taller de Flexibilidad", "imagen":"1flex.jpg"},
+    {"id":2, "nombre":"Stretching", "imagen":"2stretching.jpg"},
+    {"id":3, "nombre":"Hatha Yoga", "imagen":"3hatha.jpg"},
+    {"id":4, "nombre":"Alineacion y elongacion", "imagen":"4alineacion.jpg"},
+    {"id":5, "nombre":"Feldenkrais", "imagen":"5feldenkrais.jpg"},
+    {"id":6, "nombre":"Vinyasa Yoga", "imagen":"6vinyasa.jpg"},
+    {"id":7, "nombre":"Yoga Integral", "imagen":"7integral.jpg"},
+    {"id":8, "nombre":"Yoga Multinivel", "imagen":"8multinivel.jpg"}
+]
+
+
+
+   
