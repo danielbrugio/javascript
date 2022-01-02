@@ -1,0 +1,129 @@
+@media (max-width: 600px) {
+  /*----------GENERALES------------*/
+
+  //GENERALES
+
+  .navbar-nav {
+    background-color: white;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+  }
+
+  .redes__sociales {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .footer__horizontal {
+    display: none;
+  }
+
+
+  //INDEX
+
+  #logo__principal {
+    width: 100%;
+    height: 100%;
+    padding: 2em;
+    margin: 2em;
+  }
+
+  // HORARIOS Y ARANCELES
+
+  .tablas__horarios {
+    flex-wrap: wrap;
+  }
+
+  .tabla__nombre {
+    font-size: 2em;
+  }
+
+  .tabla__titulo {
+    font-size: 1.5em;
+  }
+
+  .tabla__horario,
+  .tabla__actividad {
+    font-size: 1em;
+  }
+
+  .aranceles {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    color: black;
+
+    h2 {
+      font-size: 2em;
+    }
+
+    p {
+      font-size: 1em;
+    }
+  }
+
+  .preguntas__protocolo {
+    font-size: 1.2em;
+  }
+
+  .preguntas__consideraciones {
+    font-size: 1em;
+  }
+
+  .preguntas__faq {
+    font-size: 2em;
+  }
+
+  //ACTIVIDADES
+
+  .actividad {
+    width: 100%;
+  }
+
+  //PRODUCTOS
+
+  .productos {
+    justify-content: center;
+  }
+
+  // QUIENES SOMOS
+
+  .titulo__nosotros {
+    font-size: 2em;
+    margin: 1.5em;
+  }
+
+  .nosotros {
+    flex-direction: column;
+  }
+
+  .nosotros__title {
+    font-size: 1.5em;
+  }
+
+  .nosotros__text,
+  .btn {
+    font-size: 1em;
+  }
+
+  //CONTACTO
+
+  .titulo__contacto {
+    font-size: 2em;
+    margin: 1.5em;
+  }
+
+  .formulario__mapa {
+    flex-wrap: wrap;
+  }
+
+  .contacto,
+  .mapa {
+    width: 100%;
+  }
+}

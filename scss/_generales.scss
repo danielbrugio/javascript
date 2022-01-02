@@ -1,0 +1,108 @@
+/*--------------- RESET -------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', 'Montserrat', sans-serif;
+}
+
+/*--------------- GENERAL -------------*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $fondo_body;
+  color: $color_general;
+  font-weight: $peso_fuente_general;
+}
+
+header {
+  background-color: transparent;
+  width: 100;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.redes__sociales {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  .redes__sociales__img {
+    width: 3rem;
+    color: #3AAF77;
+    margin: 0.5em;
+    z-index: 2;
+    border: 1px  #3AAF77 ;
+
+  }
+}
+
+.footer__horizontal {
+  display: flex;
+  justify-content: space-around;
+
+  .redes__sociales__img {
+    width: 3rem;
+    color: #3AAF77;
+    margin: 2em;
+  
+  }
+
+  .direccion__horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+
+}
+
+.logoNav {
+  background-color: transparent;
+  width: 15em;
+  height: 100%;
+  display: flex;
+}
+
+.navbar-nav {
+  width: 50em;
+  font-size: 2em;
+  text-transform: uppercase;
+
+  a {
+    color: #3AAF77;
+  }
+}
+
+.nav-link {
+  color: #3AAF77 !important;
+
+}
+
+//404
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .error__titulo {
+     font-size: 10em;
+      width: 100%;
+      text-align: center;
+  }
+  .error__parrafo {
+      margin: 1em;
+      font-size: 7em;
+      width: 100%;
+      text-align: center;
+  }
+  
+}
+
